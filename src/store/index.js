@@ -3,7 +3,7 @@ import {createStore, applyMiddleware, combineReducers} from "redux";
 import {composeWithDevTools} from "@redux-devtools/extension";
 import createSagaMiddleware from 'redux-saga';
 import {chatReducer} from "./chatReducer";
-import {userReducer} from "./userReucer";
+import {userReducer} from "./userReducer";
 import {quizReducer} from "./quizReducer";
 
 const sagaMiddleware = createSagaMiddleware();
